@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/js/webauthn.js"></script>
+    <script type="text/javascript" src="/js/base64.js"></script>
+
+</head>
+<body>
+    <input type="email" name="" id="input-email" value="test@test.com">
+    <button type="button" onclick="makeCredential()">Do</button>
+</body>
+<script>
+    $(document).ready(() => {
+        console.log('loadoed')
+       makeCredential()
+    });
+</script>
+</html>
